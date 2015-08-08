@@ -1,25 +1,21 @@
-# angularjs
-```
+# Sinatra + AngularJS Example App
+
+Este projeto adotou, por simplicidade e convniência, a seguinte estrutura:
+``` ruby
 
 $ tree
 .
-├── build.xml
-├── build.xml
-├── build.xml
-├── client
-│   ├── build.xml
-│   ├── log4j.properties
-│   └── src
-│       ├── client
-│       │   └── Client.java
-│       └── jndi.properties
-├── lab.properties
-└── src
-    └── exc
-        ├── BusinessService1.java
-        ├── BusinessService1Helper.java
-        ├── BusinessService2.java
-        ├── BusinessService2Helper.java
-        ├── ClientService.java
-        └── ClientServiceBean.java
+├── server.rb   #asdasdas
+├── Gemfile
+├── Gemfile.lock
+├── config.ru
+├── README.md
+├── .gitignore
+├── public
+│   ├── index.html
+│   ├── css
+│   |   └── styless.js
+│   └── js
+│       └── scripts.js
+
 ```
